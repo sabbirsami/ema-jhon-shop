@@ -9,7 +9,7 @@ const Hero = () => {
             <Container>
                 <div className="hero-section">
                     <Row>
-                        <Col>
+                        <Col className="d-flex align-items-center">
                             <div className="hero-text-area">
                                 <p className="text-warning">
                                     Sale up to 70% off
@@ -19,14 +19,14 @@ const Hero = () => {
                                     Discover all the new arrivals of
                                     ready-to-wear collection.
                                 </h4>
-                                <button className="btn btn-warning py-2 px-4 fs-5">
+                                <button className="btn btn-warning py-2 px-4 fs-5 my-4">
                                     Shop Now
                                 </button>
                             </div>
                         </Col>
-                        <Col>
-                            <div className="hero-img-area justify-content-center">
-                                <img src={heroImg} alt="" />
+                        <Col className="d-flex align-items-center justify-content-center">
+                            <div className="hero-img-area">
+                                <img className="w-100" src={heroImg} alt="" />
                             </div>
                         </Col>
                     </Row>
